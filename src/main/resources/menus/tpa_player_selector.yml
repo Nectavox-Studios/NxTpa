@@ -1,0 +1,37 @@
+title: "ᴛᴘᴀ - %page%/%pageSize%"
+rows: 6
+items-per-page: 45
+
+items:
+  next:
+    material: ARROW
+    name: "&f"
+    lore:
+      - "&r             <b><gradient:#45ffa5:#45ffef>ɴᴇxᴛ ᴘᴀɢᴇ</gradient></b>&r   "
+      - "&r               &8&m           &r    "
+      - ""
+      - "&r &8• &#45ffefᴄʟɪᴄᴋ &fᴛᴏ ɢᴏ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ &8•&r "
+      - ""
+    slot: 50
+    sound: UI_BUTTON_CLICK
+
+  previous:
+    material: ARROW
+    name: "&f"
+    lore:
+      - "&r             <b><gradient:#45ffa5:#45ffef>ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ</gradient></b>&r   "
+      - "&r                &8&m               &r    "
+      - ""
+      - "&r &8• &#45ffefᴄʟɪᴄᴋ &fᴛᴏ ɢᴏ ᴛᴏ ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜꜱ ᴘᴀɢᴇ &8•&r "
+      - ""
+    slot: 48
+    sound: UI_BUTTON_CLICK
+  player:
+    name: "&f"
+    lore:
+      - "&r           <b><gradient:#5b29ff:#8f00fc>ᴛᴘᴀ</gradient></b>&r"
+      - "&r           &8&m      &r"
+      - ""
+      - "&r &8• &#8f00fcᴄʟɪᴄᴋ &fᴛᴏ ᴛᴘᴀ &d%player% &8•&r"
+      - ""
+    sound: UI_BUTTON_CLICK

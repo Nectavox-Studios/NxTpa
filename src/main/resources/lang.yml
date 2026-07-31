@@ -1,0 +1,44 @@
+
+PREFIX: "<gradient:#a120f7:#cc20f7>NxTpa</gradient> &7» "
+NO_PERM: "&cYou don't Have Permission!"
+ERROR: "&cThere was a problem performing the operation. Check the console."
+PLAYER_NOT_FOUND: "&cPlayer not found or not online."
+RELOAD: "&aSuccessfully reloaded the configuration!"
+
+TPA_REQUEST_EXPIRE: "&7Your teleport request has expired."
+TPA_REQUEST_CANCEL_NOT_EXIST: "&cThis teleport request doest not exist."
+TPA_REQUEST_CANCEL: "&7You canceled your tpa requests."
+TPA_REQUEST_SEND: "&7You sent &d%player% &7a teleport request."
+TPA_REQUEST_SEND_SELF: "&cYou cannot invite yourself!"
+TPA_REQUEST_SEND_EXIST: "&cYou have already send the request &d%player%"
+TPA_REQUEST_RECEIVE: |
+  &d%player% &7sent you a tpa request
+  <click:run_command:'/tpaaccept %player%'><hover:show_text:'<green>Accept request'>&d[CLICK]</hover></click> &7or type &d/tpaaccept %player%
+TPA_REQUEST_ACCEPT_NOT_EXIST: "&cYou have no teleport request from &d%player%"
+TPA_REQUEST_ACCEPT: "&7You accepted the tpa request from &d%player%"
+TPA_REQUEST_ACCEPTED: "&d%player% &7has accepted your tpa request."
+TPA_NOT_ACCEPTING: "&cThis player is not accepting requests."
+
+TPHERE_REQUEST_CANCEL: "&7You canceled your tpahere requests."
+TPHERE_REQUEST_RECEIVE: |
+  &d%player% &7sent you a tpahere request
+  <click:run_command:'/tpaaccept %player%'><hover:show_text:'<green>Accept request'>&d[CLICK]</hover></click> &7or type &d/tpaaccept %player%
+TPHERE_REQUEST_ACCEPT: "&7You accepted the tpahere request from &d%player%"
+TPHERE_REQUEST_ACCEPTED: "&d%player% &7has accepted your tpahere request."
+
+TPAUTO_ENABLED: "&aYou have tpauto on"
+
+TELEPORT_SUCCESS: "&7You have been teleported successfully"
+TELEPORT_DELAY: "&7Teleporting in &d%delay% &7seconds"
+TELEPORT_FAIL: "&cTeleport canceled because you moved."
+
+
+IGNORE: "&5You will no longer receive teleport requests from %player%."
+IGNORE_ALREADY: "&cYou have currently ignored %player%."
+UNIGNORE: "&5You will now receive teleport requests from %player%."
+UNIGNORE_ALREADY: "&cYou have not ignored %player%."
+
+IGNORE_SELF: "&cYou cannot ignore yourself"
+
+BACK_NOT_FOUND: "&cNo previous location found to return to."
+BACK_COOLDOWN: "&cYou must wait %time% before using /back again."

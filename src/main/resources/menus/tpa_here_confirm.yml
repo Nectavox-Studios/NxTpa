@@ -1,0 +1,47 @@
+title: "ᴄᴏɴꜰɪʀᴍ ᴛᴘᴀ ʜᴇʀᴇ"
+rows: 3
+
+items:
+  cancel:
+    material: RED_STAINED_GLASS_PANE
+    name: "&f"
+    lore:
+      - "&r        <b><gradient:#ed0c2a:#de3737>ᴄᴀɴᴄᴇʟ</gradient></b>&r   "
+      - "&r        &8&m          &r    "
+      - ""
+      - "&r &8• &#de3737ᴄʟɪᴄᴋ &fᴛᴏ ᴄᴀɴᴄᴇʟ &8•&r "
+      - ""
+    slot: 10
+    sound: UI_BUTTON_CLICK
+  location:
+    material: COMPASS
+    name: "&f"
+    lore:
+      - "&r         <b><gradient:#5b29ff:#8f00fc>ʟᴏᴄᴀᴛɪᴏɴ</gradient></b>&r   "
+      - "&r           &8&m          &r    "
+      - ""
+      - "&r &8• &f%player_world% %player_x%x %player_y%y %player_z%z &8•&r "
+      - ""
+    slot: 12
+    sound: UI_BUTTON_CLICK
+  player:
+    name: "&f"
+    lore:
+      - "&r        <b><gradient:#5b29ff:#8f00fc>ᴘʟᴀʏᴇʀ</gradient></b>&r"
+      - "&r         &8&m        &r"
+      - ""
+      - "&r &8• &f%player% &8•&r"
+      - ""
+    slot: 14
+    sound: UI_BUTTON_CLICK
+  confirm:
+    material: LIME_STAINED_GLASS_PANE
+    name: "&f"
+    lore:
+      - "&r       <b><gradient:#2dff29:#29ff7f>ᴄᴏɴꜰɪʀᴍ</gradient></b>&r   "
+      - "&r        &8&m          &r    "
+      - ""
+      - "&r &8• &#29ff7fᴄʟɪᴄᴋ &fᴛᴏ ᴄᴏɴꜰɪʀᴍ &8•&r "
+      - ""
+    slot: 16
+    sound: UI_BUTTON_CLICK

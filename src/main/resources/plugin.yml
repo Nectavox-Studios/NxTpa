@@ -1,0 +1,111 @@
+name: NxTpa
+version: '${version}'
+
+main: com.nectavox.nxtpa.NxTpa
+api-version: '1.20'
+
+authors: [ OZyroX ]
+website: nectavox.com
+
+folia-supported: true
+
+commands:
+  nxtpa:
+    aliases: [ tpa ]
+    permission: nxtpa.command.tpa
+
+  nxtpareload:
+    permission: nxtpa.command.reload
+
+  nxtpasetting:
+    aliases: [ tpsettings, tpasettings ]
+    permission: nxtpa.command.setting
+
+  nxtpaaccept:
+    aliases: [ tpaaccept, tpyes, tpaccept ]
+    permission: nxtpa.command.accept
+
+  nxtpacancel:
+    aliases: [ tpacancel, tpno, tpcancel ]
+    permission: nxtpa.command.cancel
+
+  nxtpahere:
+    aliases: [ tpahere ]
+    permission: nxtpa.command.tpahere
+
+  nxtpauto:
+    aliases: [ tpauto ]
+    permission: nxtpa.command.tpauto
+
+  nxtpignore:
+    aliases: [ tpignore, ignore ]
+    permission: nxtpa.command.ignore
+
+  nxtpunignore:
+    aliases: [ tpunignore, unignore ]
+    permission: nxtpa.command.unignore
+
+  nxback:
+    aliases: [ back ]
+    permission: nxtpa.command.back
+
+permissions:
+  nxtpa.command.tpa:
+    default: op
+
+  nxtpa.command.tpahere:
+    default: op
+
+  nxtpa.command.accept:
+    default: op
+
+  nxtpa.command.cancel:
+    default: op
+
+  nxtpa.command.tpauto:
+    default: op
+
+  nxtpa.command.ignore:
+    default: op
+
+  nxtpa.command.unignore:
+    default: op
+
+  nxtpa.command.reload:
+    default: op
+
+  nxtpa.command.back:
+    default: op
+
+  nxtpa.command.back.other:
+    default: op
+
+  nxtpa.back.death:
+    default: op
+
+  nxtpa.command.setting:
+    default: op
+
+  nxtpa.setting.tpaconfirm:
+    default: op
+
+  nxtpa.setting.tparequests:
+    default: op
+
+  nxtpa.setting.tpahererequests:
+    default: op
+
+  nxtpa.setting.tpauto:
+    default: op
+
+  nxtpa.setting.tpaaccept:
+    default: op
+
+  nxtpa.setting.backconfirm:
+    default: op
+
+  nxtpa.bypass.cooldown.back:
+    default: op
+
+  nxtpa.bypass.teleport.delay:
+    default: op
