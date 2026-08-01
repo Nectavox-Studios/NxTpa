@@ -51,16 +51,16 @@ commands:
 
 permissions:
   nxtpa.command.tpa:
-    default: op
+    default: true
 
   nxtpa.command.tpahere:
-    default: op
+    default: true
 
   nxtpa.command.accept:
-    default: op
+    default: true
 
   nxtpa.command.cancel:
-    default: op
+    default: true
 
   nxtpa.command.tpauto:
     default: op
@@ -84,25 +84,25 @@ permissions:
     default: op
 
   nxtpa.command.setting:
-    default: op
+    default: true
 
   nxtpa.setting.tpaconfirm:
-    default: op
+    default: true
 
   nxtpa.setting.tparequests:
-    default: op
+    default: true
 
   nxtpa.setting.tpahererequests:
-    default: op
+    default: true
 
   nxtpa.setting.tpauto:
     default: op
 
   nxtpa.setting.tpaaccept:
-    default: op
+    default: true
 
   nxtpa.setting.backconfirm:
-    default: op
+    default: true
 
   nxtpa.bypass.cooldown.back:
     default: op

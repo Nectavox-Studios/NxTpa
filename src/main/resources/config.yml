@@ -1,2 +1,4 @@
+check-update: true
+
 teleport-delay: 5
 back-cooldown: 60

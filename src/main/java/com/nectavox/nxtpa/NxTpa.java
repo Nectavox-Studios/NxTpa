@@ -1,5 +1,7 @@
 package com.nectavox.nxtpa;
 
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import com.nectavox.nxcore.NxPlugin;
 import com.nectavox.nxcore.commands.CommandManager;
 import com.nectavox.nxcore.managers.LangManager;
@@ -13,6 +15,12 @@ import com.nectavox.nxtpa.managers.TpaManager;
 import lombok.Getter;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 
 @Getter
 public final class NxTpa extends NxPlugin {
