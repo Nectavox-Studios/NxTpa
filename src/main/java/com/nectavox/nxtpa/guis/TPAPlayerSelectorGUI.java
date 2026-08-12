@@ -30,7 +30,7 @@ public class TPAPlayerSelectorGUI {
 
             GuiUtil.addSkullItem(onlinePlayer, onlinePlayer, gui, data, "player", e -> {
                 plugin.getTpaManager().requestTpa(player, onlinePlayer, false);
-            });
+            }, "%player%", onlinePlayer.getName());
         }
 
         gui.update();

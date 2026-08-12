@@ -27,7 +27,7 @@ public class TPAHerePlayerSelectorGUI {
             if (onlinePlayer.getName().equals(player.getName())) continue;
             GuiUtil.addSkullItem(onlinePlayer, onlinePlayer, gui, data, "player", e -> {
                 plugin.getTpaManager().requestTpaHere(player, onlinePlayer, false);
-            });
+            }, "%player%", onlinePlayer.getName());
         }
 
         gui.update();
