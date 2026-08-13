@@ -1,6 +1,6 @@
 package com.nectavox.nxtpa.guis;
 
-import com.nectavox.nxcore.models.GuiData;
+import com.nectavox.nxcore.models.gui.GuiData;
 import com.nectavox.nxcore.utils.GuiUtil;
 import com.nectavox.nxtpa.NxTpa;
 import com.nectavox.nxtpa.utils.NavigationUtil;

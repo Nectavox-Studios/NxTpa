@@ -1,6 +1,6 @@
 package com.nectavox.nxtpa.utils;
 
-import com.nectavox.nxcore.models.GuiData;
+import com.nectavox.nxcore.models.gui.GuiData;
 import com.nectavox.nxcore.utils.GuiUtil;
 import dev.triumphteam.gui.guis.PaginatedGui;
 import net.kyori.adventure.text.Component;

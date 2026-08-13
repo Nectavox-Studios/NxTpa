@@ -1,17 +1,14 @@
 package com.nectavox.nxtpa.guis;
 
-import com.nectavox.nxcore.models.GuiData;
-import com.nectavox.nxcore.models.GuiItemData;
+import com.nectavox.nxcore.models.gui.GuiData;
+import com.nectavox.nxcore.models.gui.GuiItemData;
 import com.nectavox.nxcore.utils.GuiUtil;
 import com.nectavox.nxtpa.NxTpa;
 import com.nectavox.nxtpa.managers.DataManager;
 import com.nectavox.nxtpa.models.PlayerData;
 import com.nectavox.nxtpa.utils.Perms;
-import dev.triumphteam.gui.builder.item.ItemBuilder;
 import dev.triumphteam.gui.guis.Gui;
-import dev.triumphteam.gui.guis.GuiItem;
 import net.kyori.adventure.text.Component;
-import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 
